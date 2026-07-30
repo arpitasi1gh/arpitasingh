@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail } from "../ui/Icons";
 
 export default function Hero() {
     return (
-      <div className="relative w-full min-h-screen flex items-center overflow-hidden">
+      <div id="contact" className="relative w-full min-h-screen flex items-center overflow-hidden">
 
 
         <div className="absolute inset-0 -z-10 overflow-hidden">
