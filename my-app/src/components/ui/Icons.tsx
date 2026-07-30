@@ -82,3 +82,183 @@ export function Phone({ className = "w-5 h-5" }: { className?: string }) {
   );
 }
 
+
+export function CodeIcon({ className = "w-5 h-5" }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <path d="m8 6-6 6 6 6"/>
+      <path d="m16 6 6 6-6 6"/>
+      <path d="M13.5 4 10.5 20"/>
+    </svg>
+  );
+}
+
+export function CubeIcon({ className = "w-5 h-5" }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 2.5 21 7v10l-9 4.5L3 17V7z"/>
+      <path d="m3 7 9 4.5L21 7"/>
+      <path d="M12 11.5V21.5"/>
+    </svg>
+  );
+}
+
+export function TreeIcon({ className = "w-5 h-5" }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="12" cy="4.5" r="2.2"/>
+      <circle cx="5.5" cy="19.5" r="2.2"/>
+      <circle cx="18.5" cy="19.5" r="2.2"/>
+      <path d="M10.6 6.4 6.9 17.6M13.4 6.4l3.7 11.2"/>
+    </svg>
+  );
+}
+
+export function DatabaseIcon({ className = "w-5 h-5" }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <ellipse cx="12" cy="5.5" rx="8" ry="3"/>
+      <path d="M4 5.5v13c0 1.66 3.58 3 8 3s8-1.34 8-3v-13"/>
+      <path d="M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3"/>
+    </svg>
+  );
+}
+
+export function ChipIcon({ className = "w-5 h-5" }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="7" y="7" width="10" height="10" rx="2"/>
+      <path d="M10 2.5v3M14 2.5v3M10 18.5v3M14 18.5v3M2.5 10h3M2.5 14h3M18.5 10h3M18.5 14h3"/>
+    </svg>
+  );
+}
+
+export function NetworkIcon({ className = "w-5 h-5" }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="12" cy="12" r="9"/>
+      <path d="M3 12h18"/>
+      <path d="M12 3a15 15 0 0 1 0 18a15 15 0 0 1 0-18z"/>
+    </svg>
+  );
+}
+
+export function ServerIcon({ className = "w-5 h-5" }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="3" y="4" width="18" height="7" rx="2"/>
+      <rect x="3" y="13" width="18" height="7" rx="2"/>
+      <path d="M7 7.5h.01M7 16.5h.01"/>
+    </svg>
+  );
+}
+
+export function LayersIcon({ className = "w-5 h-5" }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <path d="m12 3 9 5-9 5-9-5z"/>
+      <path d="m3 13 9 5 9-5"/>
+    </svg>
+  );
+}
+
+export function BrainIcon({ className = "w-5 h-5" }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M9.5 4A2.5 2.5 0 0 0 7 6.5 2.5 2.5 0 0 0 5 9a2.5 2.5 0 0 0 1 2 2.5 2.5 0 0 0 1 4.5 2.5 2.5 0 0 0 2.5 2.5c.83 0 1.5-.4 1.5-1.2V5.2C11 4.4 10.33 4 9.5 4z"/>
+      <path d="M14.5 4A2.5 2.5 0 0 1 17 6.5 2.5 2.5 0 0 1 19 9a2.5 2.5 0 0 1-1 2 2.5 2.5 0 0 1-1 4.5 2.5 2.5 0 0 1-2.5 2.5c-.83 0-1.5-.4-1.5-1.2V5.2c0-.8.67-1.2 1.5-1.2z"/>
+    </svg>
+  );
+}
+
+export function BlueprintIcon({ className = "w-5 h-5" }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="3" y="3" width="18" height="18" rx="2"/>
+      <path d="M3 9h18M9 21V9"/>
+      <path d="M13.5 13.5h4v4h-4z"/>
+    </svg>
+  );
+}
+
+export function ShieldIcon({ className = "w-5 h-5" }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 3 5 6v5.5c0 4.3 2.9 7.7 7 9.5 4.1-1.8 7-5.2 7-9.5V6z"/>
+      <path d="m9.2 12 2 2 3.6-3.8"/>
+    </svg>
+  );
+}
+
+export function ToolsIcon({ className = "w-5 h-5" }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M14.5 3.5a4 4 0 0 0 5.2 5.2L21 7.5v3.2L11 20.7a2.4 2.4 0 0 1-3.4-3.4l9.9-9.9h3.2"/>
+      <path d="M6 3.5 3.5 6l3 3 2.5-2.5z"/>
+    </svg>
+  );
+}
+
+export function ExternalLinkIcon({ className = "w-4 h-4" }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M10 14 21 3"/>
+      <path d="M21 3h-6M21 3v6"/>
+      <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+    </svg>
+  );
+}
+
+export function TrophyIcon({ className = "w-5 h-5" }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+      <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+      <path d="M6 4h12v5a6 6 0 0 1-12 0V4z"/>
+      <path d="M12 15v4"/>
+      <path d="M9 21h6"/>
+    </svg>
+  );
+}
+
+export function GitBranchIcon({ className = "w-5 h-5" }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="6" cy="6" r="3"/>
+      <circle cx="6" cy="18" r="3"/>
+      <circle cx="18" cy="6" r="3"/>
+      <path d="M6 9v6"/>
+      <path d="M9 18h4a3 3 0 0 0 3-3V9"/>
+    </svg>
+  );
+}
+
+export function RocketIcon({ className = "w-5 h-5" }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M4.5 16.5c-1.5 1.5-1.5 4.5-1.5 4.5s3 0 4.5-1.5l3-3"/>
+      <path d="M12 15 9 12l8-8 4 4-8 8z"/>
+      <path d="m14 6 4-4"/>
+      <path d="M17 9h.01"/>
+    </svg>
+  );
+}
+
+
+export function ChevronDown({ className = "w-5 h-5" }) {
+  return (
+    <svg className={`w-7 h-7 text-muted-foreground hover:text-primary transition-colors duration-200 cursor-pointer ${className}`} fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" role="img" aria-label="Expand section">
+      <title>Expand</title>
+      <path d="m6 9 6 6 6-6"/>
+    </svg>
+  );
+}
+
+export function ChevronUp({ className = "w-5 h-5" }) {
+  return (
+    <svg className={`w-7 h-7 text-muted-foreground hover:text-primary transition-colors duration-200 cursor-pointer ${className}`} fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" role="img" aria-label="Collapse section">
+      <title>Collapse</title>
+      <path d="m18 15-6-6-6 6"/>
+    </svg>
+  );
+}

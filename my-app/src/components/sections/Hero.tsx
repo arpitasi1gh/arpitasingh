@@ -12,7 +12,7 @@ export default function Hero() {
             <source src="/hero-bg.mp4" type="video/mp4"/>
           </video>
 
-          <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/40 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-b to-background/80 via-background/40 from-transparent"></div>
         
         </div>
 
