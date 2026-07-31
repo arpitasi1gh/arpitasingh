@@ -2,7 +2,7 @@ import { blogPosts, BlogPost } from "@/data/blogPosts";
 import Link from "next/link";
 
 
-function BlogRow({ post, index } : { post: BlogPost; index: number }) {
+export function BlogRow({ post, index } : { post: BlogPost; index: number }) {
   return (
     <Link href={`/blog/${post.slug}`} className="group flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 py-6 border-b border-border transition-colors hover:bg-surface/5 px-3 -mx-3 last:border-0">
       
@@ -52,6 +52,9 @@ export default function BlogPage() {
         <h2 className="mt-2 font-display text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-[1.05]">
           Notes on <span className="gradient-text">building things.</span>
         </h2>
+        <p className="mt-2 text-sm text-muted-foreground font-sans">
+          Thoughts on engineering, AI, and building products.
+        </p>
       </div>
 
       <div className="flex flex-col w-full">
