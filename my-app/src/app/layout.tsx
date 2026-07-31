@@ -1,3 +1,6 @@
+import Navbar from "@/components/ui/Navbar";
+import Footer from "@/components/ui/Footer";
+
 import type { Metadata } from "next";
 import { Inter, Fraunces, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
@@ -34,7 +37,9 @@ export default function RootLayout({
       className={`${inter.variable} ${fraunces.variable} ${jetbrainsMono.variable}`}
     >
       <body className="bg-background text-foreground font-sans antialiased selection:bg-primary selection:text-primary-foreground grain">
+        <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
