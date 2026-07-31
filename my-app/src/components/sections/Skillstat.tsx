@@ -2,7 +2,7 @@ import { CodeIcon, TreeIcon, CubeIcon, DatabaseIcon, ChipIcon, NetworkIcon, Serv
 
 export default function Skillstat() {
     return (
-        <div id="skills" className="w-full max-w-6xl px-5 py-20 sm:py-28 mx-auto">
+        <div id="skills" className="w-full max-w-7xl px-5 py-20 sm:py-28 mx-auto">
 
 
 

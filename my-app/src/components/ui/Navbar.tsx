@@ -38,7 +38,7 @@ export default function Navbar() {
 
     return (
         <div className={`fixed w-full z-50 top-0 left-0 right-0 transition-all duration-300 ${scrolled ? "bg-background/80 backdrop-blur-md border-b border-border" : "bg-transparent"}`}>
-            <div className="flex items-center justify-between max-w-7xl mx-auto py-4 sm:px-6 lg:px-8">
+            <div className="flex items-center justify-between mx-auto py-4 sm:px-6 lg:px-8">
                 <div className="font-display font-bold text-lg tracking-tight hover:scale-[1.02] transition-transform">
                     🌟 Arpita Singh
                 </div>

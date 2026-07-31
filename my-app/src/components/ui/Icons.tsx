@@ -47,25 +47,25 @@ export function Mail() {
 }
 
 
-export function Sun({ className = "w-5 h-5" }: { className?: string }) {
+export function Sun({ className = "w-5 h-5" } : { className?: string }) {
   return (
-    <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+    <svg className={className} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
       <circle cx="12" cy="12" r="5"/>
       <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
     </svg>
   );
 }
 
-export function Moon({ className = "w-5 h-5" }: { className?: string }) {
+export function Moon({ className = "w-5 h-5" } : { className?: string }) {
   return (
-    <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+    <svg className={className} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
       <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
     </svg>
   );
 }
 
 
-export function Copyright({ className = "w-5 h-5" }: { className?: string }) {
+export function Copyright({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
       <circle cx="12" cy="12" r="9" strokeLinecap="round" strokeLinejoin="round" />
@@ -74,7 +74,7 @@ export function Copyright({ className = "w-5 h-5" }: { className?: string }) {
   );
 }
 
-export function Phone({ className = "w-5 h-5" }: { className?: string }) {
+export function Phone({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
       <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
@@ -83,7 +83,7 @@ export function Phone({ className = "w-5 h-5" }: { className?: string }) {
 }
 
 
-export function CodeIcon({ className = "w-5 h-5" }) {
+export function CodeIcon({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <path d="m8 6-6 6 6 6"/>
@@ -93,7 +93,7 @@ export function CodeIcon({ className = "w-5 h-5" }) {
   );
 }
 
-export function CubeIcon({ className = "w-5 h-5" }) {
+export function CubeIcon({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <path d="M12 2.5 21 7v10l-9 4.5L3 17V7z"/>
@@ -103,7 +103,7 @@ export function CubeIcon({ className = "w-5 h-5" }) {
   );
 }
 
-export function TreeIcon({ className = "w-5 h-5" }) {
+export function TreeIcon({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <circle cx="12" cy="4.5" r="2.2"/>
@@ -114,7 +114,7 @@ export function TreeIcon({ className = "w-5 h-5" }) {
   );
 }
 
-export function DatabaseIcon({ className = "w-5 h-5" }) {
+export function DatabaseIcon({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <ellipse cx="12" cy="5.5" rx="8" ry="3"/>
@@ -124,7 +124,7 @@ export function DatabaseIcon({ className = "w-5 h-5" }) {
   );
 }
 
-export function ChipIcon({ className = "w-5 h-5" }) {
+export function ChipIcon({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <rect x="7" y="7" width="10" height="10" rx="2"/>
@@ -133,7 +133,7 @@ export function ChipIcon({ className = "w-5 h-5" }) {
   );
 }
 
-export function NetworkIcon({ className = "w-5 h-5" }) {
+export function NetworkIcon({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <circle cx="12" cy="12" r="9"/>
@@ -143,7 +143,7 @@ export function NetworkIcon({ className = "w-5 h-5" }) {
   );
 }
 
-export function ServerIcon({ className = "w-5 h-5" }) {
+export function ServerIcon({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <rect x="3" y="4" width="18" height="7" rx="2"/>
@@ -153,7 +153,7 @@ export function ServerIcon({ className = "w-5 h-5" }) {
   );
 }
 
-export function LayersIcon({ className = "w-5 h-5" }) {
+export function LayersIcon({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <path d="m12 3 9 5-9 5-9-5z"/>
@@ -162,7 +162,7 @@ export function LayersIcon({ className = "w-5 h-5" }) {
   );
 }
 
-export function BrainIcon({ className = "w-5 h-5" }) {
+export function BrainIcon({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <path d="M9.5 4A2.5 2.5 0 0 0 7 6.5 2.5 2.5 0 0 0 5 9a2.5 2.5 0 0 0 1 2 2.5 2.5 0 0 0 1 4.5 2.5 2.5 0 0 0 2.5 2.5c.83 0 1.5-.4 1.5-1.2V5.2C11 4.4 10.33 4 9.5 4z"/>
@@ -171,7 +171,7 @@ export function BrainIcon({ className = "w-5 h-5" }) {
   );
 }
 
-export function BlueprintIcon({ className = "w-5 h-5" }) {
+export function BlueprintIcon({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <rect x="3" y="3" width="18" height="18" rx="2"/>
@@ -181,7 +181,7 @@ export function BlueprintIcon({ className = "w-5 h-5" }) {
   );
 }
 
-export function ShieldIcon({ className = "w-5 h-5" }) {
+export function ShieldIcon({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <path d="M12 3 5 6v5.5c0 4.3 2.9 7.7 7 9.5 4.1-1.8 7-5.2 7-9.5V6z"/>
@@ -190,7 +190,7 @@ export function ShieldIcon({ className = "w-5 h-5" }) {
   );
 }
 
-export function ToolsIcon({ className = "w-5 h-5" }) {
+export function ToolsIcon({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <path d="M14.5 3.5a4 4 0 0 0 5.2 5.2L21 7.5v3.2L11 20.7a2.4 2.4 0 0 1-3.4-3.4l9.9-9.9h3.2"/>
@@ -199,7 +199,7 @@ export function ToolsIcon({ className = "w-5 h-5" }) {
   );
 }
 
-export function ExternalLinkIcon({ className = "w-4 h-4" }) {
+export function ExternalLinkIcon({ className = "w-4 h-4" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <path d="M10 14 21 3"/>
@@ -209,7 +209,7 @@ export function ExternalLinkIcon({ className = "w-4 h-4" }) {
   );
 }
 
-export function TrophyIcon({ className = "w-5 h-5" }) {
+export function TrophyIcon({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
@@ -221,7 +221,7 @@ export function TrophyIcon({ className = "w-5 h-5" }) {
   );
 }
 
-export function GitBranchIcon({ className = "w-5 h-5" }) {
+export function GitBranchIcon({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <circle cx="6" cy="6" r="3"/>
@@ -233,7 +233,7 @@ export function GitBranchIcon({ className = "w-5 h-5" }) {
   );
 }
 
-export function RocketIcon({ className = "w-5 h-5" }) {
+export function RocketIcon({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <path d="M4.5 16.5c-1.5 1.5-1.5 4.5-1.5 4.5s3 0 4.5-1.5l3-3"/>
@@ -245,7 +245,7 @@ export function RocketIcon({ className = "w-5 h-5" }) {
 }
 
 
-export function ChevronDown({ className = "w-5 h-5" }) {
+export function ChevronDown({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={`w-7 h-7 text-muted-foreground hover:text-primary transition-colors duration-200 cursor-pointer ${className}`} fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" role="img" aria-label="Expand section">
       <title>Expand</title>
@@ -254,11 +254,65 @@ export function ChevronDown({ className = "w-5 h-5" }) {
   );
 }
 
-export function ChevronUp({ className = "w-5 h-5" }) {
+export function ChevronUp({ className = "w-5 h-5" } : { className?: string }) {
   return (
     <svg className={`w-7 h-7 text-muted-foreground hover:text-primary transition-colors duration-200 cursor-pointer ${className}`} fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" role="img" aria-label="Collapse section">
       <title>Collapse</title>
       <path d="m18 15-6-6-6 6"/>
+    </svg>
+  );
+}
+
+
+export function ArrowIcon({ className = "w-5 h-5" } : { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M5 12h14"/>
+      <path d="m13 6 6 6-6 6"/>
+    </svg>
+  );
+}
+
+export function CheckIcon({ className = "w-5 h-5" } : { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+      <path d="m4.5 12.5 4.5 4.5 10-10.5"/>
+    </svg>
+  );
+}
+
+export function SparkIcon({ className = "w-5 h-5" } : { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 3.5 13.9 9l5.6 1.9-5.6 1.9L12 18.4 10.1 12.8 4.5 10.9 10.1 9 12 3.5Z"/>
+    </svg>
+  );
+}
+
+export function TargetIcon({ className = "w-5 h-5" }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="12" cy="12" r="8.5"/>
+      <circle cx="12" cy="12" r="4.5"/>
+      <circle cx="12" cy="12" r="1" fill="currentColor"/>
+    </svg>
+  );
+}
+
+export function NotebookIcon({ className = "w-5 h-5" } : { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M6 3h11a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"/>
+      <path d="M9 3v18"/>
+      <path d="M13 8h3M13 12h3"/>
+    </svg>
+  );
+}
+
+export function GithubIcon({ className = "w-5 h-5" } : { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.3-1.7-1.3-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/>
     </svg>
   );
 }
