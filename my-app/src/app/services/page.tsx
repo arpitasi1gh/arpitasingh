@@ -1,6 +1,6 @@
 export default function Services() {
   return (
-    <div id="services">
+    <div id="services" className="min-h-screen">
         
     </div>
   );
