@@ -192,7 +192,7 @@ export default function Skillstat() {
                     <div className="h-px flex-1 bg-border/40"/>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 
                     <div className="rounded-2xl border bg-card p-5 transition hover:border-primary/50 hover:-translate-y-0.5">
                         <div className="flex gap-3 items-start">
@@ -202,10 +202,10 @@ export default function Skillstat() {
                                 <p className="mt-1 text-sm text-muted-foreground">Active on DSA & Competitive Programming platforms</p>
                             </div>
                         </div>
-                        <div className="flex flex-wrap justify-center gap-2 mt-2">
+                        <div className="flex flex-wrap justify-center gap-2 mt-3">
                             <a href="https://leetcode.com/u/arpitasi1gh" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 rounded-full border border-border bg-surface px-3 py-1 text-xs text-foreground transition-colors hover:border-primary/50 hover:text-primary">LeetCode<ExternalLinkIcon className="h-3 w-3"/></a>
                             <a href="https://codeforces.com/profile/arpitasi1gh" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 rounded-full border border-border bg-surface px-3 py-1 text-xs text-foreground transition-colors hover:border-primary/50 hover:text-primary">Codeforces<ExternalLinkIcon className="h-3 w-3"/></a>
-                            <a href="https://auth.geeksforgeeks.org/user/arpitasi1gh" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 rounded-full border border-border bg-surface px-3 py-1 text-xs text-foreground transition-colors hover:border-primary/50 hover:text-primary">HackerRank<ExternalLinkIcon className="h-3 w-3"/></a>
+                            <a href="https://www.hackerrank.com/profile/arpitasi1gh" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 rounded-full border border-border bg-surface px-3 py-1 text-xs text-foreground transition-colors hover:border-primary/50 hover:text-primary">HackerRank<ExternalLinkIcon className="h-3 w-3"/></a>
                             <a href="https://auth.geeksforgeeks.org/user/arpitasi1gh" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 rounded-full border border-border bg-surface px-3 py-1 text-xs text-foreground transition-colors hover:border-primary/50 hover:text-primary">GeeksforGeeks<ExternalLinkIcon className="h-3 w-3"/></a>
                         </div>
                     </div>
@@ -215,24 +215,12 @@ export default function Skillstat() {
                             <GitBranchIcon className="h-9 w-9 p-2.5 shrink-0 rounded-lg border bg-surface-2 text-primary"/>
                             <div>
                                 <h4 className="font-display font-semibold text-base leading-none">400+ Contributions</h4>
-                                <p className="mt-1 text-sm text-muted-foreground">Active on open-source projects & private repositories</p>
+                                <p className="mt-1 text-sm text-muted-foreground">3+ projects shipped from prototypes to production-ready applications</p>
                             </div>
                         </div>
-                        <div className="flex flex-wrap justify-center gap-2 mt-4 sm:mt-4 md:mt-6 lg:mt-6">
+                        <div className="flex flex-wrap justify-center gap-2  mt-3">
                             <a href="https://github.com/arpitasi1gh" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 rounded-full border border-border bg-surface px-3 py-1 text-xs text-foreground transition-colors hover:border-primary/50 hover:text-primary">GitHub Profile<ExternalLinkIcon className="h-3 w-3"/></a>
-                        </div>
-                    </div>
-
-                    <div className="rounded-2xl border bg-card p-5 transition hover:border-primary/50 hover:-translate-y-0.5">
-                        <div className="flex gap-3 items-start">
-                            <RocketIcon className="h-9 w-9 p-2.5 shrink-0 rounded-lg border bg-surface-2 text-primary"/>
-                            <div>
-                                <h4 className="font-display font-semibold text-base leading-none">3+ Projects Shipped</h4>
-                                <p className="mt-1 text-sm text-muted-foreground">Fullstack prototypes to production-ready applications</p>
-                            </div>
-                        </div>
-                        <div className="flex flex-wrap justify-center gap-2 mt-4 sm:mt-4 md:mt-3 lg:mt-6">
-                            <a href="https://github.com/arpitasi1gh" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 rounded-full border border-border bg-surface px-3 py-1 text-xs text-foreground transition-colors hover:border-primary/50 hover:text-primary">View Repositories<ExternalLinkIcon className="h-3 w-3"/></a>
+                            <a href="https://github.com/arpitasi1gh?tab=repositories" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 rounded-full border border-border bg-surface px-3 py-1 text-xs text-foreground transition-colors hover:border-primary/50 hover:text-primary">View Repos<ExternalLinkIcon className="h-3 w-3"/></a>
                         </div>
                     </div>
 
@@ -249,7 +237,7 @@ export default function Skillstat() {
                     <div className="h-px flex-1 bg-border/40"/>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 
                     <div className="rounded-2xl border bg-card p-5 transition hover:border-primary/50 hover:-translate-y-0.5">
                         <div className="flex gap-3 items-start">
@@ -259,8 +247,8 @@ export default function Skillstat() {
                                 <p className="mt-1 text-sm text-muted-foreground">Merged feature PRs · Active bug triaging · Comprehensive technical documentation</p>
                             </div>
                         </div>
-                        <div className="flex flex-wrap justify-center gap-2 mt-2">
-                            <a href="https://github.com/arpitasi1gh" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 rounded-full border border-border bg-surface px-3 py-1 text-xs text-foreground transition-colors hover:border-primary/50 hover:text-primary">GitHub Profile<ExternalLinkIcon className="h-3 w-3"/></a>
+                        <div className="flex flex-wrap justify-center gap-2 mt-3">
+                            <a href="https://github.com/arpitasi1gh" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 rounded-full border border-border bg-surface px-3 py-1 text-xs text-foreground transition-colors hover:border-primary/50 hover:text-primary">View Contributions<ExternalLinkIcon className="h-3 w-3"/></a>
                         </div>
                     </div>
 
@@ -272,21 +260,8 @@ export default function Skillstat() {
                                 <p className="mt-1 text-sm text-muted-foreground">48hr fullstack MVPs · Cross-functional team agility · Product demos & pitch decks</p>
                             </div>
                         </div>
-                        <div className="flex flex-wrap justify-center gap-2 mt-2">
+                        <div className="flex flex-wrap justify-center gap-2 mt-3">
                             <a href="https://github.com/arpitasi1gh" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 rounded-full border border-border bg-surface px-3 py-1 text-xs text-foreground transition-colors hover:border-primary/50 hover:text-primary">Explore Demos<ExternalLinkIcon className="h-3 w-3"/></a>
-                        </div>
-                    </div>
-
-                    <div className="rounded-2xl border bg-card p-5 transition hover:border-primary/50 hover:-translate-y-0.5">
-                        <div className="flex gap-3 items-start">
-                            <CodeIcon className="h-9 w-9 p-2.5 shrink-0 rounded-lg border bg-surface-2 text-primary"/>
-                            <div>
-                                <h4 className="font-display font-semibold text-base leading-none">Peer Reviews & Mentorship</h4>
-                                <p className="mt-1 text-sm text-muted-foreground">Thorough code review cycles · Technical knowledge transfer · Onboarding junior contributors</p>
-                            </div>
-                        </div>
-                        <div className="flex flex-wrap justify-center gap-2 mt-2">
-                            <a href="https://github.com/arpitasi1gh" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 rounded-full border border-border bg-surface px-3 py-1 text-xs text-foreground transition-colors hover:border-primary/50 hover:text-primary">Community Involvement<ExternalLinkIcon className="h-3 w-3"/></a>
                         </div>
                     </div>
 

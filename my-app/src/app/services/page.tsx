@@ -113,7 +113,7 @@ export default function Services() {
         </div>
 
 
-        <p className="mt-4 text-center text-xs text-muted-foreground/70">
+        <p className="mt-4 text-center text-xs text-muted-foreground">
           Custom scopes and timelines available on request.
         </p>
 
