@@ -2,7 +2,7 @@
 
 > **Personal Portfolio Website**
 
-🔗 **Live Demo:** [https://arpitasi1gh.vercel.app](https://arpitasi1gh.vercel.app)
+🔗 **Live Demo:** [https://arpitasingh.vercel.app](https://arpitasingh.vercel.app)
 
 ![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
@@ -96,37 +96,51 @@ As a second-year engineering student, I needed a portfolio that:
 ```text
 src/
 ├── app/
+│   ├── blog/
+│   │   └── [slug]/
+│   │       └── page.tsx           # Dynamic blog post pages
+│   ├── services/
+│   │   └── page.tsx               # Services page
+│   ├── favicon.ico
+│   ├── globals.css                # Global styles, CSS variables, dark/light tokens
 │   ├── layout.tsx                 # Root layout — fonts, global styles, theme
-│   ├── page.tsx                   # Homepage — orchestrates all sections
-│   └── globals.css                # Global styles, CSS variables, dark/light tokens
+│   └── page.tsx                   # Homepage — orchestrates all sections
 │
 ├── components/
 │   ├── layout/
-│   │   ├── Navbar.tsx             # Sticky navigation with scroll detection & active section tracking
+│   │   ├── Navbar.tsx             # Sticky navigation with scroll detection
 │   │   └── Footer.tsx             # Minimal footer — copyright, tech stack, quick links
 │   │
 │   ├── sections/
 │   │   ├── Hero.tsx               # Identity + tagline + profile photo + social icons
-│   │   ├── Projects.tsx           # Featured project cards (HuntTrack, CollabFlow, AgentForge)
-│   │   ├── SkillStat.tsx          # Core CS, Production Engineering, AI, Achievements, Community
-│   │   └── Services.tsx           # Productised offers for clients (QR Menu, Landing Page, Booking)
+│   │   ├── Projects.tsx           # Featured project cards
+│   │   ├── SkillStat.tsx          # Skills, achievements, community
+│   │   ├── Blog.tsx               # Blog index page
+│   │   └── Services.tsx           # Productised offers for clients
 │   │
-│   └── ui/
-│       ├── Icons.tsx              # All custom SVG icons (30+ icons)
-│       └── VisualSeparator.tsx    # Decorative section dividers (dot-grid texture + hover glow)
+│   ├── ui/
+│   │   ├── Icons.tsx              # All custom SVG icons (30+ icons)
+│   │   ├── ThemeToggle.tsx        # Dark/light mode toggle
+│   │   └── VisualSeparator.tsx    # Decorative section dividers
+│   │
+│   └── data/
+│       └── blogPosts.ts           # Blog post data
 │
 ├── public/
 │   ├── profile.jpg                # Profile photo
-│   ├── hero-bg.mp4                # Background video loop (low opacity, blurred)
+│   ├── hero-bg.mp4                # Background video loop
 │   └── resume.pdf                 # Downloadable resume
 │
 ├── .gitignore
+├── eslint.config.mjs
+├── next-env.d.ts
 ├── next.config.ts                 # Next.js configuration
-├── package.json                   # Dependencies and scripts
+├── package-lock.json
+├── package.json
 ├── postcss.config.mjs             # PostCSS config for Tailwind
-├── tailwind.config.js             # Tailwind CSS configuration
-├── tsconfig.json                  # TypeScript configuration
-└── README.md                      # This file
+├── README.md                      # This file
+├── tailwind.config.ts             # Tailwind CSS configuration
+└── tsconfig.json                  # TypeScript configuration
 ```
 
 ---
